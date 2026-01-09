@@ -61,6 +61,12 @@ namespace Ivvy.API.Invoice
             get; set;
         }
 
+        [JsonProperty("serviceDate")]
+        public ServiceDate ServiceDate
+        {
+            get; set;
+        }
+
         [JsonProperty("unitCost")]
         public float UnitCost
         {
